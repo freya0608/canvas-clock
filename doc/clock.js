@@ -7,7 +7,7 @@ var ctx = dom.getContext('2d');
 var width = ctx.canvas.width;
 var height = ctx.canvas.height;
 var r = width/2;
-var rem = width/200;
+var rem = width/200;//设置不同大小下时钟显示比例
 
 function drawBackground() {
     ctx.save();
